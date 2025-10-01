@@ -13,8 +13,8 @@ function Footer() {
         
         <div className="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center text-start">
           <div className="d-flex align-items-center gap-2">
-            <img src="/img/logo.svg" alt="FTB logo" style={{ height: '2rem' }} />
-            <NavLink to="/" className="text-decoration-none text-white fs-4 fw-bold">FTB</NavLink>
+            <img src="./public/img/logo.svg" alt="FTB logo" style={{ height: '2rem' }} />
+            <NavLink to="/Fitness-Training-Business/home" className="text-decoration-none text-white fs-4 fw-bold">FTB</NavLink>
           </div>
           <p className="mt-3 text-muted">Train with purpose. Transform your life.</p>
         </div>
@@ -23,10 +23,10 @@ function Footer() {
         <div className="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center" data-aos="fade-up">
           <h5 className="text-accent fw-bold mb-3">Quick Links</h5>
           <ul className="list-unstyled">
-            <li><NavLink to="/" className="text-white text-decoration-none d-block mb-1">Home</NavLink></li>
-            <li><NavLink to="/programs" className="text-white text-decoration-none d-block mb-1">Programs</NavLink></li>
-            <li><NavLink to="/blog" className="text-white text-decoration-none d-block mb-1">Blog</NavLink></li>
-            <li><NavLink to="/contact" className="text-white text-decoration-none d-block mb-1">Contact</NavLink></li>
+            <li><NavLink to="/Fitness-Training-Business/home" className="text-white text-decoration-none d-block mb-1">Home</NavLink></li>
+            <li><NavLink to="/Fitness-Training-Business/programs" className="text-white text-decoration-none d-block mb-1">Programs</NavLink></li>
+            <li><NavLink to="/Fitness-Training-Business/blog" className="text-white text-decoration-none d-block mb-1">Blog</NavLink></li>
+            <li><NavLink to="/Fitness-Training-Business/contact" className="text-white text-decoration-none d-block mb-1">Contact</NavLink></li>
           </ul>
         </div>
 

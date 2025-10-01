@@ -14,9 +14,9 @@ function Navigation() {
     <nav className="navbar-dark-theme  py-3">
       <ul className="d-flex list-unstyled align-items-center fs-5 m-0">
         <li className="flex-grow-1 d-flex align-items-center">
-          <NavLink to="/" className="brand-link text-decoration-none d-flex align-items-center">
+          <NavLink to="/Fitness-Training-Business/home" className="brand-link text-decoration-none d-flex align-items-center">
             <img
-              src="/img/logo.svg"
+              src="./public/img/logo.svg"
               alt="logo"
               className="img-fluid rounded me-2"
               style={{ height: '45px' }}
@@ -25,10 +25,10 @@ function Navigation() {
           </NavLink>
         </li>
 
-        <li><NavLink to="/" style={navLinkStyles}>Home</NavLink></li>
-        <li><NavLink to="/programs" style={navLinkStyles}>Programs</NavLink></li>
-        <li><NavLink to="/blog" style={navLinkStyles}>Blog</NavLink></li>
-        <li><NavLink to="/contact" style={navLinkStyles}>Contact</NavLink></li>
+        <li><NavLink to="/Fitness-Training-Business/home" style={navLinkStyles}>Home</NavLink></li>
+        <li><NavLink to="/Fitness-Training-Business/programs" style={navLinkStyles}>Programs</NavLink></li>
+        <li><NavLink to="/Fitness-Training-Business/blog" style={navLinkStyles}>Blog</NavLink></li>
+        <li><NavLink to="/Fitness-Training-Business/contact" style={navLinkStyles}>Contact</NavLink></li>
       </ul>
     </nav>
   );
