@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { NavLink } from 'react-router-dom';
 
 const Program = ({ show }) => {
     useEffect(() => {
@@ -138,14 +139,14 @@ const Program = ({ show }) => {
                                 {program.title === 'Nutrition Only' && 'Flexible meal plans'}
                             </small>
                             <div className="text-center mt-auto">
-                                <a
-                                    href="/Fitness-Training-Business/contact"
-                                    className="btn btn-lg w-100 fw-bold btn-outline-accent"
+                                <NavLink
+                                    href="/Fitness-Training-Business/home" 
+                                    className="btn btn-lg w-100 fw-bold btn-outline-accent btn-outline-danger"
                                 >
                                     {program.title === 'Total Transformation'
                                         ? 'START TRANSFORMATION'
                                         : 'GET STARTED'}
-                                </a>
+                                </NavLink>
 
                             </div>
                         </div>

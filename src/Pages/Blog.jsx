@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { NavLink } from 'react-router-dom';
 
 const Blog = () => {
   useEffect(() => {
@@ -269,9 +270,9 @@ const Blog = () => {
       <div className="row">
         {filteredPosts.map((post) => (
           <div className="col-lg-4 col-md-6 mb-4 " key={post.id} data-aos="fade-up" >
-            <div className="blog-card h-100 " style={{border :"solid 1px violet"}}>
+            <div className="blog-card h-auto" style={{border :"solid 1px violet"}}>
               <img src={post.image} alt={post.title} className="card-img-top blog-img" />
-              <div className="card-body d-flex flex-column text-center py-4 px-1">
+              <div className="card-body d-flex flex-column text-center py-4 px-3">
                 <div className="d-flex justify-content-between align-items-center mb-2">
                   <span className="badge badge-category">{post.category}</span>
                   <small>{post.readTime}</small>
@@ -282,9 +283,7 @@ const Blog = () => {
                   <small>
                     {new Date(post.date).toLocaleDateString()} • {post.author}
                   </small>
-                  <a href="/Fitness-Training-Business/blog" className="btn btn-sm btn-outline-accent">
-                    Read More
-                  </a>
+                  <NavLink to="/Fitness-Training-Business/home" className=" btn btn-sm btn-outline-accent btn-outline-danger">Read More</NavLink>
                 </div>
               </div>
             </div>
