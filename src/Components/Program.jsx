@@ -139,7 +139,7 @@ const Program = ({ show }) => {
                             </small>
                             <div className="text-center mt-auto">
                                 <a
-                                    href="/contact"
+                                    href="/Fitness-Training-Business/contact"
                                     className="btn btn-lg w-100 fw-bold btn-outline-accent"
                                 >
                                     {program.title === 'Total Transformation'

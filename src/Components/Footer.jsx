@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import FooterCard from './FooterCard';
 import FooterCell from './FooterCell';
 import FooterLocation from './FooterLocation';
 import FooterMail from './FooterMail';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Footer() {
+    useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
   return (
     <footer className="footer-container text-white py-5 px-4 overflow-hidden" data-aos="fade-up">
       
@@ -13,7 +18,7 @@ function Footer() {
         
         <div className="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center text-start">
           <div className="d-flex align-items-center gap-2">
-            <img src="./public/img/logo.svg" alt="FTB logo" style={{ height: '2rem' }} />
+            <img src="./img/logo.svg" alt="FTB logo" style={{ height: '2rem' }} />
             <NavLink to="/Fitness-Training-Business/home" className="text-decoration-none text-white fs-4 fw-bold">FTB</NavLink>
           </div>
           <p className="mt-3 text-muted">Train with purpose. Transform your life.</p>
@@ -30,7 +35,6 @@ function Footer() {
           </ul>
         </div>
 
-         
         <div className="col-md-4 d-flex flex-column align-items-center" data-aos="fade-left">
           <h5 className="text-accent fw-bold mb-3">Connect With Us</h5>
           <FooterCard />

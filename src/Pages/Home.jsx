@@ -27,7 +27,7 @@ function Home() {
         <div className="container-fluid h-100">
           <div className="row h-100">
             <div className="col-md-6">
-              <img src="./public/img/dark-bg.png" alt="jogng man" className='img-fluid '/>
+              <img src="./img/dark-bg.png" alt="jogng man" className='img-fluid '/>
             </div>
 
             <div className="col-md-6 d-flex flex-column justify-content-center align-items-end text-end p-5 bg-transparent">
@@ -51,7 +51,7 @@ function Home() {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-7" data-aos="fade-right">
-              <img src="./public/img/about-me.png" alt="jogging man" className="img-fluid rounded shadow" />
+              <img src="./img/about-me.png" alt="jogging man" className="img-fluid rounded shadow" />
             </div>
             <div className="col-md-5" data-aos="fade-left">
               <h2 className="text-accent fw-bold mb-3">About Me</h2>

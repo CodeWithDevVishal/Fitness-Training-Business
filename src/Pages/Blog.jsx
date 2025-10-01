@@ -17,7 +17,7 @@ const Blog = () => {
     category: 'workouts',
     readTime: '5 min read',
     date: '2024-01-15',
-    image: './public/img/blog1.jpg',
+    image: './img/blog1.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -28,7 +28,7 @@ const Blog = () => {
     category: 'nutrition',
     readTime: '7 min read',
     date: '2024-01-12',
-    image: './public/img/protein.jpg',
+    image: './img/protein.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -39,7 +39,7 @@ const Blog = () => {
     category: 'mindset',
     readTime: '6 min read',
     date: '2024-01-08',
-    image: './public/img/Motivated.jpg',
+    image: './img/Motivated.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -50,7 +50,7 @@ const Blog = () => {
     category: 'equipment',
     readTime: '4 min read',
     date: '2024-01-05',
-    image: './public/img/a-home-workout-setup.png',
+    image: './img/a-home-workout-setup.png',
     author: 'Alex Johnson',
   },
   {
@@ -61,7 +61,7 @@ const Blog = () => {
     category: 'workouts',
     readTime: '8 min read',
     date: '2024-01-02',
-    image: './public/img/truth.png',
+    image: './img/truth.png',
     author: 'Alex Johnson',
   },
   {
@@ -72,7 +72,7 @@ const Blog = () => {
     category: 'nutrition',
     readTime: '5 min read',
     date: '2023-12-28',
-    image: './public/img/meal.jpg',
+    image: './img/meal.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -83,7 +83,7 @@ const Blog = () => {
     category: 'tips',
     readTime: '3 min read',
     date: '2023-12-20',
-    image: './public/img/truth.png',
+    image: './img/truth.png',
     author: 'Alex Johnson',
   },
   {
@@ -94,7 +94,7 @@ const Blog = () => {
     category: 'mindset',
     readTime: '6 min read',
     date: '2023-12-15',
-    image: './public/img/protein.jpg',
+    image: './img/protein.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -105,7 +105,7 @@ const Blog = () => {
     category: 'equipment',
     readTime: '4 min read',
     date: '2023-12-12',
-    image: './public/img/a-home-workout-setup.png',
+    image: './img/a-home-workout-setup.png',
     author: 'Alex Johnson',
   },
   {
@@ -116,7 +116,7 @@ const Blog = () => {
     category: 'workouts',
     readTime: '5 min read',
     date: '2023-12-10',
-    image: './public/img/blog1.jpg',
+    image: './img/blog1.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -127,7 +127,7 @@ const Blog = () => {
     category: 'nutrition',
     readTime: '4 min read',
     date: '2023-12-05',
-    image: './public/img/meal.jpg',
+    image: './img/meal.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -138,7 +138,7 @@ const Blog = () => {
     category: 'mindset',
     readTime: '6 min read',
     date: '2023-12-02',
-    image: './public/img/Motivated.jpg',
+    image: './img/Motivated.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -149,7 +149,7 @@ const Blog = () => {
     category: 'tips',
     readTime: '3 min read',
     date: '2023-11-30',
-    image: './public/img/blog1.jpg',
+    image: './img/blog1.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -160,7 +160,7 @@ const Blog = () => {
     category: 'tips',
     readTime: '5 min read',
     date: '2023-11-25',
-    image: './public/img/meal.jpg',
+    image: './img/meal.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -171,7 +171,7 @@ const Blog = () => {
     category: 'mindset',
     readTime: '6 min read',
     date: '2023-11-20',
-    image: './public/img/Motivated.jpg',
+    image: './img/Motivated.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -182,7 +182,7 @@ const Blog = () => {
     category: 'nutrition',
     readTime: '4 min read',
     date: '2023-11-18',
-    image: './public/img/protein.jpg',
+    image: './img/protein.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -193,7 +193,7 @@ const Blog = () => {
     category: 'mindset',
     readTime: '5 min read',
     date: '2023-11-15',
-    image: './public/img/a-home-workout-setup.png',
+    image: './img/a-home-workout-setup.png',
     author: 'Alex Johnson',
   },
   {
@@ -204,7 +204,7 @@ const Blog = () => {
     category: 'workouts',
     readTime: '7 min read',
     date: '2023-11-10',
-    image: './public/img/blog1.jpg',
+    image: './img/blog1.jpg',
     author: 'Alex Johnson',
   },
   {
@@ -215,7 +215,7 @@ const Blog = () => {
     category: 'nutrition',
     readTime: '6 min read',
     date: '2023-11-05',
-    image: './public/img/truth.png',
+    image: './img/truth.png',
     author: 'Alex Johnson',
   },
   {
@@ -226,7 +226,7 @@ const Blog = () => {
     category: 'workouts',
     readTime: '5 min read',
     date: '2023-11-01',
-    image: './public/img/Motivated.jpg',
+    image: './img/Motivated.jpg',
     author: 'Alex Johnson',
   },
 ];
@@ -282,7 +282,7 @@ const Blog = () => {
                   <small>
                     {new Date(post.date).toLocaleDateString()} • {post.author}
                   </small>
-                  <a href={`/`} className="btn btn-sm btn-outline-accent">
+                  <a href="/Fitness-Training-Business/blog" className="btn btn-sm btn-outline-accent">
                     Read More
                   </a>
                 </div>
