@@ -109,7 +109,7 @@ const Program = ({ show }) => {
                             </div>
                         )}
 
-                        <div className="card-body d-flex flex-column p-4 rounded rounded-4 " style={{ border: "solid 2px violet" }}>
+                        <div className="card-body d-flex flex-column p-4 rounded rounded-4 " style={{border:" solid violet"}}>
                             <div className="text-center mb-3">
                                 <h5 className="card-title fw-bold text-uppercase text-fitness">
                                     {program.title}
