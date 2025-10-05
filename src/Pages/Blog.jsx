@@ -9,6 +9,10 @@ const Blog = () => {
   }, []);
   const [activeCategory, setActiveCategory] = useState('all');
 
+  //remove read time.
+  //  expert :- An excerpt is a short passage or fragment taken from a larger work, such as a book, film, speech, or song, that is presented as a standalone piece 
+
+  //excerpt should be taken from content need to change 
   const blogPosts = [
   {
     id: 1,

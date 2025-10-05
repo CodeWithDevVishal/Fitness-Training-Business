@@ -35,7 +35,7 @@ function App() {
 
           <div className="row">
             <Routes>
-              <Route path="/Fitness-Training-Business/home" element={<Home />} />
+              <Route path="/Fitness-Training-Business/" element={<Home />} />
               <Route path="/Fitness-Training-Business/programs" element={<Programs />} />
               <Route path="/Fitness-Training-Business/blog" element={<Blog />} />
               <Route path="/Fitness-Training-Business/contact" element={<Contact />} />

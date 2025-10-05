@@ -14,7 +14,7 @@ function Navigation() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3 py-2 ">
       <div className="container-fluid rounded rounded-3">
         {/* Brand */}
-        <NavLink to="/Fitness-Training-Business/home" className="navbar-brand d-flex align-items-center">
+        <NavLink to="/Fitness-Training-Business/" className="navbar-brand d-flex align-items-center">
           <img
             src="./img/logo.svg"
             alt="logo"
@@ -41,7 +41,7 @@ function Navigation() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink to="/Fitness-Training-Business/home" className="nav-link" style={navLinkStyles}>
+              <NavLink to="/Fitness-Training-Business/" className="nav-link" style={navLinkStyles}>
                 Home
               </NavLink>
             </li>
